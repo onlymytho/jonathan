@@ -141,7 +141,7 @@ rocketsell context
 
 ---
 
-### 1. 주문 처리 담당자
+## 1. 주문 처리 담당자
 
 **지금 하는 일**
 
@@ -171,7 +171,7 @@ rocketsell import <file>                     # CSV/XLS 자동 감지 → 채널 
 
 ---
 
-### 2. 정산 담당자
+## 2. 정산 담당자
 
 **지금 하는 일**
 
@@ -204,7 +204,7 @@ rocketsell settlement schedule                       # 입금 예정 스케줄
 
 ---
 
-### 3. 매출 리포터
+## 3. 매출 리포터
 
 **지금 하는 일**
 
@@ -227,7 +227,7 @@ rocketsell report --by productline --period 3m                # 제품라인별 
 
 ---
 
-### 4. 손익 분석가
+## 4. 손익 분석가
 
 **지금 하는 일**
 
@@ -248,7 +248,7 @@ rocketsell cost list         # 채널·SKU별 공헌이익 현황
 
 ---
 
-### 5. 상품 등록 담당자
+## 5. 상품 등록 담당자
 
 **지금 하는 일**
 
