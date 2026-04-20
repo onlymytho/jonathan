@@ -307,12 +307,7 @@ CSV 채널은 다운받은 파일을 `rocketsell import`에 던지면 자동 감
 | <img src="https://www.google.com/s2/favicons?domain=datalab.naver.com&sz=16" width="16"/> 네이버 DataLab | ✅ | — | — |
 | <img src="https://www.google.com/s2/favicons?domain=searchad.naver.com&sz=16" width="16"/> 네이버 SearchAD | ✅ | — | ✅ |
 | <img src="https://www.google.com/s2/favicons?domain=musinsa.com&sz=16" width="16"/> 무신사 | — | ✅ | — |
-| <img src="https://www.google.com/s2/favicons?domain=oliveyoung.co.kr&sz=16" width="16"/> 올리브영 | — | ✅ | — |
 | <img src="https://www.google.com/s2/favicons?domain=hwahae.com&sz=16" width="16"/> 화해 | — | ✅ | — |
-| <img src="https://www.google.com/s2/favicons?domain=zigzag.kr&sz=16" width="16"/> 지그재그 | — | ✅ | — |
-| <img src="https://www.google.com/s2/favicons?domain=coupang.com&sz=16" width="16"/> 쿠팡 | — | ✅ | — |
-| <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=16" width="16"/> Amazon | — | ✅ | — |
-| <img src="https://www.google.com/s2/favicons?domain=aliexpress.com&sz=16" width="16"/> AliExpress | — | ✅ | — |
 
 ---
 
