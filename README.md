@@ -64,7 +64,7 @@ rocketsell product sync        # 가격·재고 전 채널 동기화
 ```
 "OO카테고리 이번 달 얼마 팔렸어?"    # rocketsell report --by category --period this-month
 "이번 주 정산 예정금액 얼마야?"       # rocketsell settlement schedule
-"오늘 주문 채널별로 정리해줘"         # rocketsell order list
+"오늘 매출 얼마야?"                   # rocketsell report today
 "마진율 낮은 SKU 뽑아줘"             # rocketsell report --by sku --metric margin
 ```
 
@@ -225,6 +225,8 @@ rocketsell settlement schedule                       # 입금 예정 스케줄
 **rocketsell로 바뀌는 것**
 
 ```sh
+rocketsell report today                                       # 오늘 전 채널 통합 매출
+rocketsell report today --period this-month                   # 이번 달 전 채널 통합 매출
 rocketsell report --by channel --period this-month            # 채널별 이번 달 매출
 rocketsell report --by sku --period 7d --metric margin        # SKU별 마진 순위
 rocketsell report --by category --period last-month --top 10  # 카테고리 TOP 10
