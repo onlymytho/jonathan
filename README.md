@@ -289,13 +289,13 @@ rocketsell product keyword set <channel> <id> --tags <kw>        # 검색 키워
 
 | 채널 | 연동 | 주문 | 상품 | 가격 | 재고 | 정산 | 쿠폰 | 웹훅 |
 |------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 쿠팡 | API | ⚠️ 폴링 | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
-| 스마트스토어 | API | ⚠️ 폴링 | ✅ | ✅ | ⚠️ | — | ❌ | ❌ |
-| 카페24 | API · CSV | ✅ 웹훅 | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ |
-| Shopify | API | ✅ 웹훅 | ✅ | ✅ | ✅ | — | ✅ | ✅ |
-| 마켓컬리 | CSV | ✅ | — | — | — | — | — | — |
-| SSF (삼성패션) | CSV | ✅ | — | — | — | — | — | — |
-| 브론테 | CSV | ✅ | — | — | — | — | — | — |
+| <img src="https://www.google.com/s2/favicons?domain=coupang.com&sz=16" width="16"/> 쿠팡 | API | ⚠️ 폴링 | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| <img src="https://www.google.com/s2/favicons?domain=shopping.naver.com&sz=16" width="16"/> 스마트스토어 | API | ⚠️ 폴링 | ✅ | ✅ | ⚠️ | — | ❌ | ❌ |
+| <img src="https://www.google.com/s2/favicons?domain=cafe24.com&sz=16" width="16"/> 카페24 | API · CSV | ✅ 웹훅 | ✅ | ✅ | ⚠️ | ✅ | ✅ | ✅ |
+| <img src="https://www.google.com/s2/favicons?domain=shopify.com&sz=16" width="16"/> Shopify | API | ✅ 웹훅 | ✅ | ✅ | ✅ | — | ✅ | ✅ |
+| <img src="https://www.google.com/s2/favicons?domain=kurly.com&sz=16" width="16"/> 마켓컬리 | CSV | ✅ | — | — | — | — | — | — |
+| <img src="https://www.google.com/s2/favicons?domain=ssfshop.com&sz=16" width="16"/> SSF (삼성패션) | CSV | ✅ | — | — | — | — | — | — |
+| <img src="https://www.google.com/s2/favicons?domain=bronte.co.kr&sz=16" width="16"/> 브론테 | CSV | ✅ | — | — | — | — | — | — |
 | EZ어드민 | CSV | ✅ | — | ✅ | — | — | — | — |
 
 CSV 채널은 다운받은 파일을 `rocketsell import`에 던지면 자동 감지해 처리합니다.
@@ -304,15 +304,15 @@ CSV 채널은 다운받은 파일을 `rocketsell import`에 던지면 자동 감
 
 | 채널 | 검색량 | 랭킹 | 광고 키워드 |
 |------|:---:|:---:|:---:|
-| 네이버 DataLab | ✅ | — | — |
-| 네이버 SearchAD | ✅ | — | ✅ |
-| 무신사 | — | ✅ | — |
-| 올리브영 | — | ✅ | — |
-| 화해 | — | ✅ | — |
-| 지그재그 | — | ✅ | — |
-| 쿠팡 | — | ✅ | — |
-| Amazon | — | ✅ | — |
-| AliExpress | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=datalab.naver.com&sz=16" width="16"/> 네이버 DataLab | ✅ | — | — |
+| <img src="https://www.google.com/s2/favicons?domain=searchad.naver.com&sz=16" width="16"/> 네이버 SearchAD | ✅ | — | ✅ |
+| <img src="https://www.google.com/s2/favicons?domain=musinsa.com&sz=16" width="16"/> 무신사 | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=oliveyoung.co.kr&sz=16" width="16"/> 올리브영 | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=hwahae.com&sz=16" width="16"/> 화해 | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=zigzag.kr&sz=16" width="16"/> 지그재그 | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=coupang.com&sz=16" width="16"/> 쿠팡 | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=amazon.com&sz=16" width="16"/> Amazon | — | ✅ | — |
+| <img src="https://www.google.com/s2/favicons?domain=aliexpress.com&sz=16" width="16"/> AliExpress | — | ✅ | — |
 
 ---
 
