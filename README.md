@@ -18,7 +18,7 @@
 </div>
 
 ```sh
-curl -fsSL https://rocketsell.vercel.app/api/v2/cli/install | bash
+curl -fsSL https://shopport.vercel.app/api/v2/cli/install | bash
 ```
 
 macOS · Linux 지원 · bun / npm 자동 감지
@@ -72,7 +72,7 @@ MCP 없이 Direct API 호출 — 빠르고 토큰 효율적.
 
 ```sh
 # AI Agent용 설치
-curl -fsSL https://rocketsell.vercel.app/agent-install.txt
+curl -fsSL https://shopport.vercel.app/agent-install.txt
 ```
 
 ### 3. 풀 에이전트 — OpenClaw, Hermes에게 스토어를 통째로 위임
@@ -110,7 +110,7 @@ curl -fsSL https://rocketsell.vercel.app/agent-install.txt
 
 ```sh
 # 가장 간편 — OS / 패키지 매니저 자동 감지
-curl -fsSL https://rocketsell.vercel.app/api/v2/cli/install | bash
+curl -fsSL https://shopport.vercel.app/api/v2/cli/install | bash
 
 # npm
 npm install -g shopport
