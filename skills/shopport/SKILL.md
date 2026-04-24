@@ -29,6 +29,7 @@ sppt --help
 | 스킬 | 설명 |
 |---|---|
 | `/sppt` | shopport 전체 도움말 + 스킬 목록 |
+| `/sppt-daily-report` | 매일 아침 매출/주문 브리핑 |
 | `/sppt-order-collect` | 멀티채널 주문 한번에 모아보기 |
 | `/sppt-order-fulfill` | 주문 확인 → 소싱 발주 → 송장 등록 |
 | `/sppt-source-to-register` | 소싱 검색 → 마진 계산 → 판매 채널 등록 |
