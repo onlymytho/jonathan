@@ -42,7 +42,6 @@ sppt --help
 | `/sppt-settlement-report` | 정산 현황 조회 + 수익 요약 |
 | `/sppt-cost-calc` | 원가/마진/수수료 계산 |
 | `/sppt-trend-research` | 트렌드 키워드 리서치 |
-| `/sppt-promo-research` | 경쟁 광고 분석 → 바이럴 체크 → 카피 생성 |
 | `/sppt-dashboard` | 운영 대시보드 띄우기 |
 | `/sppt-status-check` | 전채널 연결 + 건강 체크 |
 
