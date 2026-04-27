@@ -1,14 +1,8 @@
 ---
 name: sppt-product-parse
-version: 1.0.0
 description: |
   주문 상품명을 SKU/카테고리/제품라인으로 해체하는 파싱 워크플로우.
   Use when asked to "상품명 분석", "SKU별 정리", "미매핑 상품 확인".
-triggers:
-  - 상품명 분석
-  - SKU 정리
-  - 미매핑 상품
-  - product parse
 allowed-tools:
   - Bash
   - Read

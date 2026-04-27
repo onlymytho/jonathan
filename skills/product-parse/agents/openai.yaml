@@ -1,0 +1,8 @@
+interface:
+  display_name: "상품명 파싱"
+  short_description: "상품명 → SKU/카테고리/제품라인 해체"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-product-parse 상품명 파싱해줘"
+
+policy:
+  allow_implicit_invocation: true

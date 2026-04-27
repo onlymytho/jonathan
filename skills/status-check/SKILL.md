@@ -1,15 +1,8 @@
 ---
 name: sppt-status-check
-version: 1.0.0
 description: |
   전채널 연결 상태 + API 건강 체크 + 스토어 브리핑.
   Use when asked to "상태 확인", "채널 연결 돼있어?", "헬스체크", "지금 상황 알려줘".
-triggers:
-  - 상태 확인
-  - 채널 연결
-  - 헬스체크
-  - status check
-  - 지금 상황
 allowed-tools:
   - Bash
   - Read

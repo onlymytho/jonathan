@@ -1,15 +1,8 @@
 ---
 name: sppt-cost-calc
-version: 1.0.0
 description: |
   원가/마진/수수료/실수령액 계산 워크플로우.
   Use when asked to "마진 계산", "원가 분석", "이거 팔면 얼마 남아", "수수료 계산".
-triggers:
-  - 마진 계산
-  - 원가 분석
-  - 얼마 남아
-  - 수수료 계산
-  - cost calc
 allowed-tools:
   - Bash
   - Read

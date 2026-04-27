@@ -1,0 +1,8 @@
+interface:
+  display_name: "상품 배치 동기화"
+  short_description: "소싱→판매 채널 배치 상품 동기화"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-product-sync 상품 동기화해줘"
+
+policy:
+  allow_implicit_invocation: true

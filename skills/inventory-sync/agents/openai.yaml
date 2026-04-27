@@ -1,0 +1,8 @@
+interface:
+  display_name: "재고 분배 동기화"
+  short_description: "공급사 재고 기준 멀티채널 재고 분배 + 동기화"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-inventory-sync 재고 동기화해줘"
+
+policy:
+  allow_implicit_invocation: true

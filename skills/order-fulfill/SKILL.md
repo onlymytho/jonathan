@@ -1,14 +1,8 @@
 ---
 name: sppt-order-fulfill
-version: 1.0.0
 description: |
   신규 주문 확인 → 소싱 발주 → 송장 등록까지 전체 주문 처리 워크플로우.
   Use when asked to "주문 처리해줘", "송장 넣어줘", "발주 확인해줘".
-triggers:
-  - 주문 처리
-  - 송장 등록
-  - 발주 확인
-  - order fulfill
 allowed-tools:
   - Bash
   - Read

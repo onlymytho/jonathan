@@ -1,0 +1,8 @@
+interface:
+  display_name: "일일 매출 브리핑"
+  short_description: "매일 아침 매출/주문 현황 요약 리포트"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-daily-report 오늘 매출 브리핑해줘"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,16 +1,8 @@
 ---
 name: sppt-daily-report
-version: 1.1.0
 description: |
   매일 아침 매출/주문 현황 브리핑 워크플로우.
   Use when asked to "데일리 리포트", "오늘 브리핑", "매출 요약해줘", "아침 리포트".
-triggers:
-  - 데일리 리포트
-  - daily report
-  - 아침 브리핑
-  - 매출 요약
-  - 모닝 브리핑
-  - 오늘 리포트
 allowed-tools:
   - Bash
   - Read

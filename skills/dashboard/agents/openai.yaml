@@ -1,0 +1,8 @@
+interface:
+  display_name: "운영 대시보드"
+  short_description: "웹 브라우저에서 운영 대시보드 열기"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-dashboard 대시보드 열어줘"
+
+policy:
+  allow_implicit_invocation: true

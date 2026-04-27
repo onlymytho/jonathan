@@ -1,0 +1,8 @@
+interface:
+  display_name: "채널 상태 체크"
+  short_description: "전채널 API 연결 상태 + 스토어 브리핑"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-status-check 채널 상태 확인해줘"
+
+policy:
+  allow_implicit_invocation: true

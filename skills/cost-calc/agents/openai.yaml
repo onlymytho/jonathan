@@ -1,0 +1,8 @@
+interface:
+  display_name: "원가/마진 계산"
+  short_description: "원가·마진·수수료·실수령액 계산"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-cost-calc 이 상품 마진 계산해줘"
+
+policy:
+  allow_implicit_invocation: true

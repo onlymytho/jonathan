@@ -1,0 +1,8 @@
+interface:
+  display_name: "소싱→판매 등록"
+  short_description: "소싱 검색 → 마진 계산 → 판매 채널 등록"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-source-to-register 상품 소싱해서 등록해줘"
+
+policy:
+  allow_implicit_invocation: true

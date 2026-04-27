@@ -1,14 +1,8 @@
 ---
 name: sppt-price-monitor
-version: 1.0.0
 description: |
   소싱가 변동 감지 + 마진 체크 + 판매가 조정 제안 워크플로우.
   Use when asked to "가격 변동 체크", "마진 확인", "소싱가 올랐는지".
-triggers:
-  - 가격 변동
-  - 마진 확인
-  - 소싱가 체크
-  - price monitor
 allowed-tools:
   - Bash
   - Read

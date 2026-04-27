@@ -1,15 +1,8 @@
 ---
 name: sppt-trend-research
-version: 1.0.0
 description: |
   트렌드 키워드 리서치 — 검색량 조회, 키워드 비교, 전문몰 랭킹.
   Use when asked to "트렌드 확인", "키워드 검색량", "뭐가 잘 팔려", "시장 조사".
-triggers:
-  - 트렌드
-  - 키워드 검색량
-  - 뭐가 잘 팔려
-  - 시장 조사
-  - trend research
 allowed-tools:
   - Bash
   - Read

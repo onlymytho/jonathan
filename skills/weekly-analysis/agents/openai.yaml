@@ -1,0 +1,8 @@
+interface:
+  display_name: "주간 매출 분석"
+  short_description: "전주 대비 매출 변화 원인 분석 + 채널 수수료 최적화"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-weekly-analysis 이번 주 매출 분석해줘"
+
+policy:
+  allow_implicit_invocation: true

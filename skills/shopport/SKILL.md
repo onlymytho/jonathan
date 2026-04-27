@@ -1,13 +1,8 @@
 ---
 name: shopport
-version: 1.0.0
 description: |
   shopport CLI 도움말 + 사용 가능한 스킬 목록. /sppt와 동일한 역할.
   Use when asked to "shopport", "shopport 도움말", "shopport 뭐야".
-triggers:
-  - shopport
-  - shopport help
-  - shopport 도움말
 allowed-tools:
   - Bash
   - Read

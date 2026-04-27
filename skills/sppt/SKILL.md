@@ -1,15 +1,8 @@
 ---
 name: sppt
-version: 1.0.0
 description: |
   shopport CLI 도움말 + 사용 가능한 스킬 목록.
   Use when asked to "sppt", "shopport 뭐 할 수 있어?", "스킬 목록", "커맨드 알려줘".
-triggers:
-  - sppt
-  - shopport help
-  - 스킬 목록
-  - 커맨드 목록
-  - 뭐 할 수 있어
 allowed-tools:
   - Bash
   - Read

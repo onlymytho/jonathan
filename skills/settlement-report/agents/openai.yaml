@@ -1,0 +1,8 @@
+interface:
+  display_name: "정산 현황 리포트"
+  short_description: "멀티채널 정산 조회 + 수수료 계산 + 수익 요약"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-settlement-report 정산 현황 보여줘"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+interface:
+  display_name: "소싱가 모니터링"
+  short_description: "소싱가 변동 감지 → 마진 체크 → 판매가 조정"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-price-monitor 가격 변동 확인해줘"
+
+policy:
+  allow_implicit_invocation: true

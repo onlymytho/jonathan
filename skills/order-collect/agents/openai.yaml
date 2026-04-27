@@ -1,0 +1,8 @@
+interface:
+  display_name: "멀티채널 주문 수집"
+  short_description: "전채널 신규 주문 한번에 모아보기"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-order-collect 오늘 주문 보여줘"
+
+policy:
+  allow_implicit_invocation: true

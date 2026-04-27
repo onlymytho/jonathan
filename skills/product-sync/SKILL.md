@@ -1,15 +1,8 @@
 ---
 name: sppt-product-sync
-version: 1.0.0
 description: |
   소싱 상품을 판매 채널에 배치로 동기화/등록하는 워크플로우.
   Use when asked to "상품 동기화", "배치 등록", "전채널 등록", "상품 복사".
-triggers:
-  - 상품 동기화
-  - 배치 등록
-  - 전채널 등록
-  - 상품 복사
-  - product sync
 allowed-tools:
   - Bash
   - Read

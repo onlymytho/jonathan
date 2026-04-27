@@ -1,0 +1,8 @@
+interface:
+  display_name: "워터폴 소싱 비교"
+  short_description: "도매매→specialoffer→CJ 3채널 가격 비교"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-waterfall-source 소싱 가격 비교해줘"
+
+policy:
+  allow_implicit_invocation: true

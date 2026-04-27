@@ -1,14 +1,8 @@
 ---
 name: sppt-source-to-register
-version: 1.0.0
 description: |
   소싱 채널에서 상품 검색 → 마진 계산 → 판매 채널 등록 워크플로우.
   Use when asked to "소싱해서 등록해줘", "도매매에서 찾아서 올려줘", "상품 소싱".
-triggers:
-  - 소싱해서 등록
-  - 상품 소싱
-  - source and register
-  - 도매매에서 찾아서
 allowed-tools:
   - Bash
   - Read

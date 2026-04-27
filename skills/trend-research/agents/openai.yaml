@@ -1,0 +1,8 @@
+interface:
+  display_name: "트렌드 키워드 리서치"
+  short_description: "검색량 조회 · 키워드 비교 · 전문몰 트렌드 분석"
+  brand_color: "#2563EB"
+  default_prompt: "$sppt-trend-research 요즘 잘 팔리는 키워드 알려줘"
+
+policy:
+  allow_implicit_invocation: true

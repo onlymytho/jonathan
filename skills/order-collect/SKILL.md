@@ -1,15 +1,8 @@
 ---
 name: sppt-order-collect
-version: 1.0.0
 description: |
   멀티채널 주문을 한번에 모아보는 워크플로우.
   Use when asked to "주문 모아줘", "전채널 주문 조회", "오늘 주문 몇 개야".
-triggers:
-  - 주문 모아
-  - 전채널 주문
-  - 오늘 주문
-  - order collect
-  - 주문 현황
 allowed-tools:
   - Bash
   - Read

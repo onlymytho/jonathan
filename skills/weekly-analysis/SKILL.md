@@ -1,19 +1,9 @@
 ---
 name: sppt-weekly-analysis
-version: 0.3.0
 description: |
   전주 대비 매출 변화 원인 분석 + 채널 수수료 최적화 컨설팅 워크플로우.
   Use when asked to "주간 분석", "왜 매출이 줄었어", "채널별 원인 분석", "지난 주 비교",
   "매출이익률 분석", "수수료율 변화", "원인 분석해줘".
-triggers:
-  - 주간 분석
-  - 원인 분석
-  - 왜 매출이
-  - 전주 대비
-  - 채널 분포 변화
-  - 수수료율 변화
-  - 매출이익률 분석
-  - weekly analysis
 allowed-tools:
   - Bash
   - Read

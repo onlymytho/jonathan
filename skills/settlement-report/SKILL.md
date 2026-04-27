@@ -1,15 +1,8 @@
 ---
 name: sppt-settlement-report
-version: 1.0.0
 description: |
   멀티채널 정산 현황 조회 + 수수료 계산 + 수익 요약 워크플로우.
   Use when asked to "정산 확인", "이번 달 수익", "수수료 얼마야", "실수령액".
-triggers:
-  - 정산
-  - 수익 확인
-  - 수수료
-  - 실수령액
-  - settlement
 allowed-tools:
   - Bash
   - Read
