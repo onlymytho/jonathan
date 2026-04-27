@@ -51,13 +51,33 @@ sppt product unmapped
 sppt product rules
 ```
 
-`~/.shopport/product-rules.md` 파일이 있는지 확인합니다.
+클라우드(대시보드 DB)에서 현재 규칙을 읽어옵니다.
 
-- **파일이 있으면**: 내용을 읽고 규칙을 이해합니다.
-- **파일이 없으면**: 사용자에게 물어봅니다:
+- **규칙이 있으면**: 내용을 읽고 규칙을 이해합니다.
+- **규칙이 없으면**: 사용자에게 물어봅니다:
   - "상품 분류 규칙이 있나요? (카테고리, 제품라인 등)"
-  - 사용자가 알려주면 `~/.shopport/product-rules.md`에 저장합니다.
+  - 사용자가 알려주면 아래 방법으로 저장합니다.
   - 없으면 상품명에서 자체 판단합니다.
+
+#### 규칙 저장/수정 방법 (AI용)
+
+규칙을 작성하거나 수정할 때는 다음 순서로 진행합니다:
+
+1. 현재 규칙 내용을 가져와 임시 파일로 저장:
+
+```bash
+sppt product rules  # 내용 확인
+```
+
+2. Write/Edit 툴로 `/tmp/product-rules.md`에 수정 내용 작성
+
+3. 클라우드에 반영:
+
+```bash
+sppt product rules set /tmp/product-rules.md
+```
+
+로컬 파일(`~/.shopport/product-rules.md`)만 수정할 때는 `--local` 플래그를 사용합니다.
 
 ### 3. 상품명 해체
 
