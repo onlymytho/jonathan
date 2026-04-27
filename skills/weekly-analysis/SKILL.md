@@ -23,13 +23,13 @@ allowed-tools:
 
 ## 채널 분류 컨텍스트
 
-분석 시작 전 채널 메타정보를 읽어 특성을 파악한다:
+분석 시작 전 채널 메타정보를 조회해 특성을 파악한다:
 
-```
-Read packages/types/src/channel.ts  → CHANNEL_META 섹션 참조
+```bash
+sppt channel meta --json
 ```
 
-`CHANNEL_META`의 각 채널에는 `type`(own-mall/open-market/vertical-specialist), `entryRequirement`(open/contract), `hasChannelBrandValue`가 정의되어 있다.
+각 채널에는 `type`(own-mall/open-market/vertical-specialist), `entryRequirement`(open/contract), `hasChannelBrandValue`가 정의되어 있다.
 
 **수수료 최적화 시 주의:**
 - `entryRequirement: "contract"` 채널은 계약 관계이므로 단순 수수료 비교로 비중 축소를 권고하면 안 된다.
@@ -39,6 +39,9 @@ Read packages/types/src/channel.ts  → CHANNEL_META 섹션 참조
 ## Data Collection
 
 ```bash
+sppt channel meta --json               # 채널 특성 (type/entryRequirement/hasChannelBrandValue)
+sppt channel fees --json               # 채널별 수수료 전체 (유입경로별 포함)
+# sppt channel fees --compare <rate>  # 특정 수수료율 이하·근방 경로 비교 (필요시)
 sppt report compare --by channel --period 7d --json
 sppt report compare --by product --period 7d --top 10 --json
 sppt settlement summary --json        # 기본값 30일

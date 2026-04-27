@@ -38,6 +38,7 @@ sppt --help
 | `/sppt-product-parse` | 상품명 → SKU/카테고리/제품라인 해체 |
 | `/sppt-inventory-sync` | 멀티채널 재고 분배 + 동기화 |
 | `/sppt-price-monitor` | 소싱가 변동 감지 → 마진 체크 → 판매가 조정 |
+| `/sppt-weekly-analysis` | 전주 대비 매출 변화 원인 분석 + 채널 수수료 최적화 |
 | `/sppt-settlement-report` | 정산 현황 조회 + 수익 요약 |
 | `/sppt-cost-calc` | 원가/마진/수수료 계산 |
 | `/sppt-trend-research` | 트렌드 키워드 리서치 |
