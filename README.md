@@ -47,17 +47,7 @@ macOS · Linux 지원 · bun / npm 자동 감지
 
 ## 3가지 사용 방식
 
-### 1. CLI — 명령어 하나로 바로 실행
-
-반복 작업을 터미널 명령어 하나로 끝냅니다.
-
-```sh
-sppt order list          # 전 채널 주문 통합 조회
-sppt settlement summary  # 채널별 정산 합계
-sppt product sync        # 가격·재고 전 채널 동기화
-```
-
-### 2. AI 어시스턴트 — Claude / Claude Code / Codex 에서 자연어로
+### 1. AI 어시스턴트 — Claude / Claude Code / Codex 에서 자연어로
 
 설치 후 AI 어시스턴트에게 자연어로 사용을 부탁합니다.
 
@@ -73,6 +63,16 @@ MCP 없이 Direct API 호출 — 빠르고 토큰 효율적.
 ```sh
 # AI Agent용 설치
 curl -fsSL https://shopport.vercel.app/agent-install.txt
+```
+
+### 2. CLI — 명령어 하나로 바로 실행
+
+반복 작업을 터미널 명령어 하나로 끝냅니다.
+
+```sh
+sppt order list          # 전 채널 주문 통합 조회
+sppt settlement summary  # 채널별 정산 합계
+sppt product sync        # 가격·재고 전 채널 동기화
 ```
 
 ### 3. 풀 에이전트 — OpenClaw, Hermes에게 스토어를 통째로 위임
