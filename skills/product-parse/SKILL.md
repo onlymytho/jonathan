@@ -64,7 +64,7 @@ sppt product rules  # 내용 확인
 sppt product rules set /tmp/product-rules.md
 ```
 
-로컬 파일(`~/.shopport/product-rules.md`)만 수정할 때는 `--local` 플래그를 사용합니다.
+오프라인 환경에서 로컬 파일만 수정할 때는 `--local` 플래그를 사용합니다.
 
 ### 3. 상품명 해체
 
@@ -102,17 +102,30 @@ sppt product rules set /tmp/product-rules.md
 
 ### 4. 결과 저장
 
-해체 결과를 카탈로그에 저장합니다. 저장은 CLI의 product-catalog-store를 통해 합니다.
+해체 결과를 카탈로그에 저장합니다.
 
-해체 결과를 `~/.shopport/imports/product-catalog.jsonl`에 저장하려면,
-각 엔트리를 JSON으로 만들어 파일에 append 합니다:
+엔트리 배열을 `/tmp/product-catalog-entries.json`에 저장한 뒤 CLI로 임포트합니다:
 
 ```bash
-# 예시: 한 줄씩 append
-echo '{"sku":"AB-MC20","brand":"알텐바흐","productLine":"316Ti","category":"냄비","productName":"멀티쿠커 편수","option":"20cm","rawNames":["[알텐바흐] 316Ti 올인원 멀티쿠커 편수 20cm"],"confidence":"llm","createdAt":"2026-04-17T..."}' >> ~/.shopport/imports/product-catalog.jsonl
+sppt product catalog import /tmp/product-catalog-entries.json
 ```
 
-또는 Node.js 스크립트를 작성해서 일괄 저장할 수 있습니다.
+파일 형식 (JSON 배열):
+
+```json
+[
+  {
+    "sku": "AB-MC20",
+    "brand": "알텐바흐",
+    "productLine": "316Ti",
+    "category": "냄비",
+    "productName": "멀티쿠커 편수",
+    "option": "20cm",
+    "rawNames": ["[알텐바흐] 316Ti 올인원 멀티쿠커 편수 20cm"],
+    "confidence": "llm"
+  }
+]
+```
 
 ### 5. 검증
 
@@ -138,4 +151,4 @@ sppt product catalog
 - 규칙 파일은 자연어로 자유롭게 작성하세요. 이 스킬이 읽고 해석합니다.
 - 한번 매핑된 상품명은 캐시되어 다음에는 자동 적용됩니다.
 - 새로운 상품이 추가되면 `sppt product unmapped`로 확인 후 추가 해체합니다.
-- 잘못된 매핑은 `product-catalog.jsonl`을 직접 수정하거나, 다시 해체할 수 있습니다.
+- 잘못된 매핑은 다시 해체하거나 `sppt product catalog edit <sku>`로 수정할 수 있습니다.

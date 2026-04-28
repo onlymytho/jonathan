@@ -31,7 +31,6 @@ sppt report daily --json
 옵션:
 - `--period 7d` (기본값) — 기간 변경 가능
 - `--top 3` (기본값) — 상품 순위 개수
-- `--no-pull` — API 호출 없이 로컬 캐시만
 
 ### 2. 브리핑 포맷으로 출력
 
